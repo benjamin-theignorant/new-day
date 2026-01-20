@@ -1,5 +1,3 @@
-Site Settings
-
 title: "Your Newsletter Name"
 author: "Your Name"
 description: "Thoughts on tech, life, and everything in between."
@@ -12,8 +10,6 @@ twitter_username: "yourhandle"
 github_username: "yourusername"
 
 Build settings
-
-We use 'minima' as it is a built-in GitHub Pages theme for maximum compatibility
 
 theme: minima
 
