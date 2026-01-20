@@ -2,7 +2,7 @@ title: "Your Newsletter Name"
 author: "Your Name"
 description: "Thoughts on tech, life, and everything in between."
 baseurl: ""
-url: "https://www.google.com/search?q=https://yourusername.github.io"
+url: "https://www.google.com/url?sa=E&source=gmail&q=https://yourusername.github.io"
 
 twitter_username: "yourhandle"
 github_username: "yourusername"
