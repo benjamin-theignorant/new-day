@@ -4,12 +4,8 @@ description: "Thoughts on tech, life, and everything in between."
 baseurl: ""
 url: "https://www.google.com/search?q=https://yourusername.github.io"
 
-Social Links
-
 twitter_username: "yourhandle"
 github_username: "yourusername"
-
-Build settings
 
 theme: minima
 
@@ -18,7 +14,5 @@ plugins:
 jekyll-feed
 
 jekyll-seo-tag
-
-Custom Variables
 
 newsletter_action_url: "#"
