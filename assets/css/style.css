@@ -1,0 +1,152 @@
+/* Substack-style Minimalist Theme */
+:root {
+    --bg-color: #ffffff;
+    --text-color: #1a1a1a;
+    --accent-color: #ff6719; /* Substack Orange */
+    --muted-color: #666666;
+    --border-color: #ebebeb;
+    --font-main: 'Georgia', serif;
+    --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: var(--font-main);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+}
+
+.container {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header & Nav */
+.site-header {
+    padding: 20px 0;
+    border-bottom: 1px solid var(--border-color);
+    margin-bottom: 60px;
+}
+
+.site-header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-logo {
+    font-family: var(--font-sans);
+    font-weight: 800;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+nav a {
+    font-family: var(--font-sans);
+    margin-left: 20px;
+    text-decoration: none;
+    color: var(--muted-color);
+    font-size: 0.9rem;
+}
+
+/* Hero Section */
+.hero-section {
+    text-align: center;
+    padding: 40px 0;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    color: var(--muted-color);
+    margin-bottom: 30px;
+}
+
+/* Subscription Form */
+.substack-form {
+    margin: 30px 0;
+}
+
+.substack-form input {
+    padding: 12px 20px;
+    width: 250px;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    font-size: 1rem;
+    outline: none;
+}
+
+.substack-form button {
+    padding: 12px 25px;
+    background-color: var(--accent-color);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.small {
+    font-family: var(--font-sans);
+    font-size: 0.8rem;
+    color: var(--muted-color);
+}
+
+/* Post List */
+.post-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 40px;
+}
+
+.post-list li {
+    margin-bottom: 40px;
+}
+
+.post-date {
+    font-family: var(--font-sans);
+    color: var(--muted-color);
+    font-size: 0.8rem;
+    text-transform: uppercase;
+}
+
+.post-list h3 a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 1.5rem;
+}
+
+.post-list h3 a:hover {
+    color: var(--accent-color);
+}
+
+.view-all {
+    display: block;
+    text-align: center;
+    font-family: var(--font-sans);
+    color: var(--accent-color);
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+/* Footer */
+.site-footer {
+    margin-top: 80px;
+    padding: 40px 0;
+    border-top: 1px solid var(--border-color);
+    text-align: center;
+    color: var(--muted-color);
+    font-family: var(--font-sans);
+    font-size: 0.9rem;
+}
